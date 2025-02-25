@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List | Kamal Crochet</title>
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+<body>
+
+<header>
+    <h1>Kamal Crochet</h1>
+    <nav>
+        <a href="/products/add" class="add-btn">+ Add New Product</a>
+    </nav>
+</header>
+
+<section class="product-section">
+    <h2>Our Exclusive Handmade Crochet Collection</h2>
+    <table>
+        <thead>
+        <tr>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="product : ${products}">
+            <td><img th:src="${product.imagePath}" alt="Product Image" class="product-img"></td>
+            <td th:text="${product.name}"></td>
+            <td th:text="${product.description}"></td>
+            <td th:text="${product.price}"></td>
+        </tr>
+        </tbody>
+    </table>
+</section>
+
+<footer>
+    <p>&copy; 2025 Kamal Crochet | Crafted with ❤️</p>
+</footer>
+
+</body>
+</html>

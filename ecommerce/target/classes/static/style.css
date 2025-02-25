@@ -1,0 +1,96 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FCE4EC;
+    margin: 0;
+    padding: 0;
+    color: #4A4A4A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login Container */
+.login-container {
+    background: #FFFFFF;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+.login-container h2 {
+    color: #D291BC;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Input Fields */
+.input-group {
+    margin: 15px 0;
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #6C5B7B;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #F8BBD0;
+    border-radius: 8px;
+    background: #FFF0F5;
+    font-size: 16px;
+    color: #6C5B7B;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #FF8C94;
+}
+
+/* Cute Button */
+.login-btn {
+    background-color: #FFB6C1;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #FF8C94;
+}
+
+/* Links */
+.login-container a {
+    display: block;
+    margin-top: 10px;
+    color: #D291BC;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
+
+/* Cute Decorative Elements */
+.decoration {
+    font-size: 24px;
+    color: #FF8C94;
+}

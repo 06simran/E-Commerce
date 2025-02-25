@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Product List</h1>
+    <a href="/products/add" class="add-btn">➕ Add New Product</a>
+</header>
+
+<section class="product-container">
+    <table>
+        <thead>
+        <tr>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="product : ${products}">
+            <td>
+                <a th:href="@{/products/{id}(id=${product.id})}">
+                    <img th:src="${product.imagePath}" alt="Product Image" width="100">
+                </a>
+            </td>
+            <td th:text="${product.name}"></td>
+            <td th:text="${product.description}"></td>
+            <td th:text="'₹' + ${product.price}"></td>
+        </tr>
+        </tbody>
+    </table>
+</section>
+
+</body>
+</html>

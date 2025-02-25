@@ -1,0 +1,11 @@
+/Users/harpreetkaur/Desktop/ecommerce/src/main/java/com/kamalCrochet/ecommerce/EcommerceApplication.java
+/Users/harpreetkaur/Desktop/ecommerce/src/main/java/com/kamalCrochet/ecommerce/config/SecurityConfig.java
+/Users/harpreetkaur/Desktop/ecommerce/src/main/java/com/kamalCrochet/ecommerce/controller/LoginController.java
+/Users/harpreetkaur/Desktop/ecommerce/src/main/java/com/kamalCrochet/ecommerce/controller/ProductController.java
+/Users/harpreetkaur/Desktop/ecommerce/src/main/java/com/kamalCrochet/ecommerce/controller/UserController.java
+/Users/harpreetkaur/Desktop/ecommerce/src/main/java/com/kamalCrochet/ecommerce/model/Product.java
+/Users/harpreetkaur/Desktop/ecommerce/src/main/java/com/kamalCrochet/ecommerce/model/User.java
+/Users/harpreetkaur/Desktop/ecommerce/src/main/java/com/kamalCrochet/ecommerce/repository/ProductRepository.java
+/Users/harpreetkaur/Desktop/ecommerce/src/main/java/com/kamalCrochet/ecommerce/repository/UserRepository.java
+/Users/harpreetkaur/Desktop/ecommerce/src/main/java/com/kamalCrochet/ecommerce/service/ProductService.java
+/Users/harpreetkaur/Desktop/ecommerce/src/main/java/com/kamalCrochet/ecommerce/service/UserService.java
